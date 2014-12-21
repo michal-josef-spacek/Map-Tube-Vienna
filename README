@@ -1,0 +1,148 @@
+NAME
+    Map::Tube::Vienna - Interface to the Vienna U-Bahn Map.
+
+SYNOPSIS
+     use Map::Tube::Vienna;
+     my $obj = Map::Tube::Vienna->new;
+     my $routes_ar = $obj->get_all_routes($from, $to);
+     my $station = $obj->get_node_by_id($station_id);
+     my $station = $obj->get_node_by_name($station_name);
+     my $route = $obj->get_shortest_route($from, $to);
+     my $metro_name = $obj->name;
+     my $xml_file = $obj->xml;
+
+DESCRIPTION
+    It currently provides functionality to find the shortest route between
+    the two given nodes.
+
+    For more information about Vienna Map, click here
+    <https://en.wikipedia.org/wiki/Vienna_Metro>.
+
+METHODS
+    "new()"
+             Constructor.
+
+    "get_all_routes($from, $to)" [EXPERIMENTAL]
+             Get all routes from station to station.
+             Returns reference to array with Map::Tube::Route objects.
+
+    "get_node_by_id($station_id)"
+             Get station node by id.
+             Returns Map::Tube::Node object.
+
+    "get_node_by_name($station_name)"
+             Get station node by name.
+             Returns Map::Tube::Node object.
+
+    "get_shortest_route($from, $to)"
+             Get shortest route between $from and $to node names. Node names in $from and $to are case insensitive.
+             Returns Map::Tube::Route object.
+
+    "name()"
+             Get metro name.
+             Returns string with metro name.
+
+    "xml()"
+             Get XML specification of Vienna metro.
+             Returns string with XML.
+
+EXAMPLE1
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use Encode qw(decode_utf8 encode_utf8);
+     use Map::Tube::Vienna;
+
+     # Object.
+     my $obj = Map::Tube::Vienna->new;
+
+     # Get route.
+     my $route = $obj->get_shortest_route(decode_utf8('Taborstraße'), decode_utf8('Kaisermühlen'));
+
+     # Print out type.
+     print "Route: ".encode_utf8($route)."\n";
+
+     # Output:
+     # Route: Taborstraße (U-Bahn-Linie U2), Praterstern (U-Bahn-Linie U1,U-Bahn-Linie U2), Vorgartenstraße (U-Bahn-Linie U1), Donauinsel (U-Bahn-Linie U1), Kaisermühlen (U-Bahn-Linie U1)
+
+EXAMPLE2
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use Map::Tube::Vienna;
+
+     # Object.
+     my $obj = Map::Tube::Vienna->new;
+
+     # Get XML file.
+     my $xml_file = $obj->xml;
+
+     # Print out XML file.
+     print "XML file: $xml_file\n";
+
+     # Output like:
+     # XML file: .*/vienna-map.xml
+
+EXAMPLE3
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use Map::Tube::GraphViz;
+     use Map::Tube::GraphViz::Utils qw(node_color_without_label);
+     use Map::Tube::Vienna;
+
+     # Object.
+     my $obj = Map::Tube::Vienna->new;
+
+     # GraphViz object.
+     my $g = Map::Tube::GraphViz->new(
+             'callback_node' => \&node_color_without_label,
+             'driver' => 'neato',
+             'tube' => $obj,
+     ); 
+
+     # Get graph to file.
+     $g->graph('Vienna.png');
+
+     # Print file.
+     system "ls -l Vienna.png";
+
+     # Output like:
+     # -rw-r--r-- 1 skim skim 292500 Dec 21 17:25 Vienna.png
+
+DEPENDENCIES
+    File::Share, Map::Tube, Moo, namespace::clean.
+
+SEE ALSO
+    Map::Tube, Map::Tube::GraphViz, Map::Tube::Text::Table.
+
+    Map::Tube::Barcelona, Map::Tube::Berlin, Map::Tube::Bucharest,
+    Map::Tube::Delhi, Map::Tube::Dnipropetrovsk, Map::Tube::Kazan,
+    Map::Tube::Kharkiv, Map::Tube::Kiev, Map::Tube::London,
+    Map::Tube::Minsk, Map::Tube::Moscow, Map::Tube::Novosibirsk,
+    Map::Tube::NYC, Map::Tube::Prague, Map::Tube::SaintPetersburg,
+    Map::Tube::Samara, Map::Tube::Sofia, Map::Tube::Tbilisi,
+    Map::Tube::Tokyo, Map::Tube::Warsaw, Map::Tube::Yekaterinburg.
+
+REPOSITORY
+    <https://github.com/tupinek/Map-Tube-Vienna>
+
+AUTHOR
+    Michal Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+     © 2014 Michal Špaček
+     Artistic License
+     BSD 2-Clause License
+
+VERSION
+    0.01
+
