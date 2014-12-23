@@ -1,0 +1,57 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 e7b9e340e0ce2c8be6e6fbcdc790091ccda4b148 Changes
+SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
+SHA1 62ea8161d1cc7e68c6aa5a240b42a571037b8c51 LICENSE.bsd
+SHA1 afbd447580bb43e4ab32926f72e8ba50f66d591f MANIFEST
+SHA1 b6900badefc2423cd26969517109fba4d3617f44 META.yml
+SHA1 40f9d554dcb2d7c5837cca9b7c9f74a016608e61 Makefile.PL
+SHA1 8bfa59e0bc82626cab1e7583763f44534f0cac38 README
+SHA1 34f6a002807443b6c8a15206b68dcf507f147260 Vienna.pm
+SHA1 07406edbb812bdbd31afb2e74a1305466447324c examples/ex1.pl
+SHA1 9599b4b144e0483102354e6249e3380776c6844c examples/ex2.pl
+SHA1 ff1b3e0eedec75c52fb030d0c5fde91957cb8313 examples/ex3.pl
+SHA1 2be9249d3c6a2611c4225988839b5918c83fa48c images/Vienna.png
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 3283fb3bb58e10c29029567e63b805cdeb66af10 inc/Module/Install/Share.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 bcbdda2111b316c9a03ab073f989457bacbed4d7 share/vienna-map.xml
+SHA1 12c307df243b72be4f37e0c6ba2483708c8cf5b0 t/Map-Tube-Vienna/00-use.t
+SHA1 8ca2e5e138250c44fb0080d496e161df4ab2f25f t/Map-Tube-Vienna/01-version.t
+SHA1 db08f368efb857f80a2b29f282d7197b438d2036 t/Map-Tube-Vienna/02-pod_coverage.t
+SHA1 768372ec7ca5202b0ea10936361ff1ed00c1feba t/Map-Tube-Vienna/03-pod.t
+SHA1 737c6badc1384c35d05cd905572605f9f479c8af t/Map-Tube-Vienna/04-get_shortest_route.t
+SHA1 250ce11b25372bd6c877acf52075adb6383a3720 t/Map-Tube-Vienna/05-name.t
+SHA1 b8d4c7c69f83c2c64169f7db3ac43ac4e2030a36 t/Map-Tube-Vienna/06-xml.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJUmTbOAAoJEAwa+cf4dLBay0MIAMQYA6H6Y4AnpHGUVyTcGa+Z
+qObFdqAeuHl5IdFQU0iLd48um3hKUIzsUlWkCSYg+hv5I5WdPi1srL6Vz5kphgQk
+D4Ud1X9+KlHpzPyrO1V1Ohzw0Lgm79ZknjeIyoY9r0k9oDIEqfCg3iAg5Eu2pyKg
+u0XEczakwBToYJ4/ipW313l5t9jzGbdFg8D+X5PoVTBS/NtRkWMVWtUUvLCIhGar
+v7Nvr8YM1gwZMHam5/CuaVv5kLsWWwG/2svfRe2J7yAKYF4jOavi7azqhPRS8Fkk
+m/D/ewolAZ1f9e+Y0l9BneHmfEAxpMVhVdiZY0eeFfvnZcPbuNaAUAhUHdG8l2c=
+=ab9M
+-----END PGP SIGNATURE-----

@@ -20,6 +20,7 @@ MANIFEST			This list of files
 META.yml
 README
 share/vienna-map.xml
+SIGNATURE
 t/Map-Tube-Vienna/00-use.t
 t/Map-Tube-Vienna/01-version.t
 t/Map-Tube-Vienna/02-pod_coverage.t
