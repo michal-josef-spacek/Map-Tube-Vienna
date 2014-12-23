@@ -166,7 +166,9 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
 
 =begin html
 
-<img src="https://raw.githubusercontent.com/tupinek/Map-Tube-Vienna/master/images/Vienna.png" alt="U-Bahn Wien" width="300px" height="300px" />
+<a href="https://raw.githubusercontent.com/tupinek/Map-Tube-Vienna/master/images/Vienna.png">
+  <img src="https://raw.githubusercontent.com/tupinek/Map-Tube-Vienna/master/images/Vienna.png" alt="U-Bahn Wien" width="300px" height="300px" />
+</a>
 
 =end html
 
