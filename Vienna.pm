@@ -165,7 +165,7 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
          'callback_node' => \&node_color_without_label,
          'driver' => 'neato',
          'tube' => $obj,
- ); 
+ );
 
  # Get graph to file.
  $g->graph('Vienna.png');
