@@ -3,6 +3,7 @@
  - Add get_lines() method to doc.
  - Add get_stations() method to doc.
  - Improve EXAMPLE3 section in doc.
+ - Update copyright years to 2015.
 
 0.01 2014-12-23T10:32:56+01:00
  - First version
