@@ -5,6 +5,7 @@
  - Add Task::Map::Tube to SEE ALSO section in doc.
  - Add get_lines() method to doc.
  - Add get_stations() method to doc.
+ - Add lines to XML document.
  - Improve EXAMPLE3 section in doc.
  - Update copyright years to 2015.
 

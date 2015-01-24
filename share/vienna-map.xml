@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tube name="U-Bahn Wien">
   <!-- https://de.wikipedia.org/wiki/U-Bahn_Wien -->
+  <lines>
+    <line id="U1" name="U-Bahn-Linie U1" color="red"/>
+    <line id="U2" name="U-Bahn-Linie U2" color="magenta"/>
+    <line id="U3" name="U-Bahn-Linie U3" color="orange"/>
+    <line id="U4" name="U-Bahn-Linie U4" color="green"/>
+    <line id="U5" name="U-Bahn-Linie U5" color="brown"/>
+  </lines>
   <stations>
     <!-- Junctions. -->
     <station id="PRATERSTERN" name="Praterstern" line="U-Bahn-Linie U1,U-Bahn-Linie U2" link="1-08,1-10,2-12,2-14"/>
