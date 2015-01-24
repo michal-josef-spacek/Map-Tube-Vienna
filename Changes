@@ -7,6 +7,7 @@
  - Add get_stations() method to doc.
  - Add lines to XML document.
  - Improve EXAMPLE3 section in doc.
+ - Remove obsolete code from EXAMPLE3 section in doc (neato is default driver).
  - Update copyright years to 2015.
 
 0.01 2014-12-23T10:32:56+01:00

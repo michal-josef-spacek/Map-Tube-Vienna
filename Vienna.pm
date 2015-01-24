@@ -163,7 +163,6 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
  # GraphViz object.
  my $g = Map::Tube::GraphViz->new(
          'callback_node' => \&node_color_without_label,
-         'driver' => 'neato',
          'tube' => $obj,
  );
 
