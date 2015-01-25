@@ -173,12 +173,12 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
  system "ls -l Vienna.png";
 
  # Output like:
- # -rw-r--r-- 1 skim skim 292500 Dec 21 17:25 Vienna.png
+ # -rw-r--r-- 1 skim skim 294217 Jan 25 01:11 Vienna.png
 
 =begin html
 
-<a href="https://raw.githubusercontent.com/tupinek/Map-Tube-Vienna/master/images/Vienna.png">
-  <img src="https://raw.githubusercontent.com/tupinek/Map-Tube-Vienna/master/images/Vienna.png" alt="U-Bahn Wien" width="300px" height="300px" />
+<a href="https://raw.githubusercontent.com/tupinek/Map-Tube-Vienna/master/images/ex3.png">
+  <img src="https://raw.githubusercontent.com/tupinek/Map-Tube-Vienna/master/images/ex3.png" alt="U-Bahn Wien" width="300px" height="300px" />
 </a>
 
 =end html
