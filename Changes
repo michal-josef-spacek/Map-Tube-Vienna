@@ -6,6 +6,7 @@
  - Add get_lines() method to doc.
  - Add get_stations() method to doc.
  - Add lines to XML document.
+ - Fix minimal version of Perl.
  - Improve EXAMPLE3 section in doc.
  - Remove obsolete code from EXAMPLE3 section in doc (neato is default driver).
  - Update copyright years to 2015.
