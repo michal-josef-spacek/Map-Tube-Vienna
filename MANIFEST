@@ -25,7 +25,8 @@ t/Map-Tube-Vienna/00-use.t
 t/Map-Tube-Vienna/01-version.t
 t/Map-Tube-Vienna/02-pod_coverage.t
 t/Map-Tube-Vienna/03-pod.t
-t/Map-Tube-Vienna/04-get_shortest_route.t
-t/Map-Tube-Vienna/05-name.t
-t/Map-Tube-Vienna/06-xml.t
+t/Map-Tube-Vienna/04-map.t
+t/Map-Tube-Vienna/05-get_shortest_route.t
+t/Map-Tube-Vienna/06-name.t
+t/Map-Tube-Vienna/07-xml.t
 Vienna.pm

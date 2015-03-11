@@ -1,6 +1,7 @@
 0.03
  - Add Map::Tube::Glasgow, Map::Tube::KoelnBonn, Map::Tube::Lyon and
    Map::Tube::Singapore to SEE ALSO section in doc.
+ - Add test of map validity.
  - Update examples/ex3.pl example.
 
 0.02 2015-01-25T01:18:17+01:00
