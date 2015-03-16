@@ -1,4 +1,5 @@
 0.04
+ - Fix test dependencies.
 
 0.03 2015-03-14T21:08:45+01:00
  - Add Map::Tube::Plugin::FuzzyFind and Map::Tube::Text::Shortest to SEE
