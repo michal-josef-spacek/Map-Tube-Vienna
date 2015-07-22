@@ -1,5 +1,6 @@
 0.05
  - Rewrite SEE ALSO section to new style.
+ - Update Module::Install to 1.16 version.
 
 0.04 2015-03-16T07:35:27+01:00
  - Fix test dependencies.
