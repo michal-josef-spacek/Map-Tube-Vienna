@@ -195,6 +195,32 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
 
 =end html
 
+=head1 EXAMPLE4
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Encode qw(encode_utf8);
+ use Map::Tube::Vienna;
+
+ # Object.
+ my $obj = Map::Tube::Vienna->new;
+
+ # Get lines.
+ my $lines_ar = $obj->get_lines;
+
+ # Print out.
+ map { print encode_utf8($_->name)."\n"; } sort @{$lines_ar};
+
+ # Output:
+ # U-Bahn-Linie U1
+ # U-Bahn-Linie U2
+ # U-Bahn-Linie U3
+ # U-Bahn-Linie U4
+ # U-Bahn-Linie U6
+
 =head1 DEPENDENCIES
 
 L<File::Share>,
