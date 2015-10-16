@@ -1,4 +1,4 @@
-0.06
+0.06 2015-10-16T10:37:07+02:00
  - Add tests for get_line_by_id(), get_line_by_name(), get_lines(),
    get_node_by_id(), get_node_by_name() and get_stations() methods.
  - Update to Map::Tube 3.06.

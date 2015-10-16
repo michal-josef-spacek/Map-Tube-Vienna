@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 4621a2e1894eb5cae40f1b9db8ba5cc67f2eaa94 Changes
+SHA1 da6201908189c44a4a1b2669483efab7c0c330df Changes
 SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
 SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE.bsd
-SHA1 a6e8786852da29e2af5e7050d36d420415c60933 MANIFEST
-SHA1 b8f3f63277216caa1c023f9ff721cb5c8fcce87e META.yml
-SHA1 59d8979aa80a2031263fdf73aacc31a4ced8e945 Makefile.PL
-SHA1 d924548dd2939ed1ed58fa6758accd3d27b8288b README
-SHA1 52a2942a2231b8c764c90dfbd9dfdefdb9e228e6 Vienna.pm
+SHA1 996bce6f678640d306548366abc5e970f678c4ef MANIFEST
+SHA1 e9e5352a2d72a7436e9387b7dbc60351d0ce7680 META.yml
+SHA1 ec2a4069bc136e650910db1e9554a1772e279b41 Makefile.PL
+SHA1 1f975c700c87a2672beba5f920e511d3ad8859a1 README
+SHA1 56f6f218980828c61d933a65d94d138ea1470f3c Vienna.pm
 SHA1 07406edbb812bdbd31afb2e74a1305466447324c examples/ex1.pl
 SHA1 9599b4b144e0483102354e6249e3380776c6844c examples/ex2.pl
 SHA1 0e5e5dbe6e7ffeccf087f3726cd559efc8c15d2f examples/ex3.pl
@@ -41,21 +41,27 @@ SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
 SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
 SHA1 2d79ef28b126281fabb880048253fbf5b56b51e2 share/vienna-map.xml
 SHA1 12c307df243b72be4f37e0c6ba2483708c8cf5b0 t/Map-Tube-Vienna/01-use.t
-SHA1 59ce48441a5dbe2d13a8e71f9ab8d634a46b5bf8 t/Map-Tube-Vienna/02-version.t
+SHA1 7e1aa8a1d42a7145e3e4b324eaa5af55bdc9758f t/Map-Tube-Vienna/02-version.t
 SHA1 4ae9d3da564667b373b3de66bb243ea454fce1c0 t/Map-Tube-Vienna/03-map.t
-SHA1 737c6badc1384c35d05cd905572605f9f479c8af t/Map-Tube-Vienna/04-get_shortest_route.t
-SHA1 250ce11b25372bd6c877acf52075adb6383a3720 t/Map-Tube-Vienna/05-name.t
-SHA1 b8d4c7c69f83c2c64169f7db3ac43ac4e2030a36 t/Map-Tube-Vienna/06-xml.t
+SHA1 3565d80258719f5e68b6327d5f8e45a3b46f4d9f t/Map-Tube-Vienna/04-get_line_by_id.t
+SHA1 2798ea85fba71f04810755c98e5e3c01a6551a43 t/Map-Tube-Vienna/05-get_line_by_name.t
+SHA1 06d16602f1afff8bcdf5a25118c60ddc9a9b3025 t/Map-Tube-Vienna/06-get_lines.t
+SHA1 2a3742f6f6b8b5d4e366ac753763dbbce32e98af t/Map-Tube-Vienna/07-get_node_by_id.t
+SHA1 79e9c119958f90d54f17ceadd427105db800f517 t/Map-Tube-Vienna/08-get_node_by_name.t
+SHA1 74aa4e4a6174fb42a1bbc1f8f1973360a17e3810 t/Map-Tube-Vienna/09-get_shortest_route.t
+SHA1 b1a844caeb87b3f70e1f1f7166b4d3665531b369 t/Map-Tube-Vienna/10-get_stations.t
+SHA1 17e3c0f2781b02bbb1771e163bfaef73c087c7dd t/Map-Tube-Vienna/11-name.t
+SHA1 2928041c0b355607ec22d99c5209e5fba52decfa t/Map-Tube-Vienna/12-xml.t
 SHA1 db08f368efb857f80a2b29f282d7197b438d2036 xt/Map-Tube-Vienna/01-pod_coverage.t
 SHA1 768372ec7ca5202b0ea10936361ff1ed00c1feba xt/Map-Tube-Vienna/02-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWCRBxAAoJEJe+XXKaIuTlLTUH/33dfWNtmh3jaAqiNNYELAi/
-mRGOn466L3mrtKbkF0ErnjFIH5dKzWmQSsvwBjiOMR+/b9Wrp2VaMtLO01TjkZWj
-S24zFx0zDv25r7aWZUZkiynKeGrZ3ORM3gHwwBaKDoC+TZgtV2KVxIb2md8pXxV/
-U0GKNcH4rWGQnWpmnC/1LxBAFwCDN8/cRq48KlmOhF/DTGNqC0vMuu1Bw4PKGC+2
-ZifMEGjUPgB0HjAhUhx/nHj9DrT063EUAViKQHx/eJMoBMcSwSenF/GkG6IJyi08
-fzlD9NvmSCj7oh/Cm6Rx9qSQ2dNTAvY1xH36c/YQjHBKzSlbJPT9pYWZi+z2Sko=
-=3t+H
+iQEcBAEBAgAGBQJWILc2AAoJEJe+XXKaIuTlZ64H/jcctkIUzLw7FqtuHBed856D
+x/uzdYUcbdiXzf+y/RvNLtwleIecTwcLerCwWnG3nMGtw1To3u8MozPCGdEXJPWv
+R9gihYMt9/ydj85DV1rq8S5X8C3apYS+QtGmoj/doWv18TkORJZ0aEoYe2S0HVV2
+ngZSzYdid7SA9Z1NORxBHKDJDK5URI9T5TR8iM/mfJAGdmvW6U/m95eP874RXs0I
+yimfW7Wr5Ho5a6k8zoftkdDCtwmZ1eKuJKcpV/5LrMy0t5YauvdlniDaHCwDJ7HH
+zD2fqe7IJ1Ag6ml225dDJJioYslUJItTFLFxLYOXbaOH//lDBfyiL1KtJ5UsUgY=
+=nwQb
 -----END PGP SIGNATURE-----
