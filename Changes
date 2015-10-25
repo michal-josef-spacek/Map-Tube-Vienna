@@ -1,6 +1,7 @@
 0.07
  - Improve comment in xml file.
  - Improve description for get_lines() in doc.
+ - Rewrite XML map to new version without junctions.
 
 0.06 2015-10-16T10:37:07+02:00
  - Add tests for get_line_by_id(), get_line_by_name(), get_lines(),
