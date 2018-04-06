@@ -1,11 +1,12 @@
 # Pragmas.
 use strict;
 use warnings;
+use utf8;
 
 # Modules.
 use English;
 use Map::Tube::Vienna;
-use Test::More tests => 4;
+use Test::More tests => 5;
 use Test::NoWarnings;
 
 # Test.
@@ -25,4 +26,8 @@ like($EVAL_ERROR, qr{^Map::Tube::get_node_by_id\(\): ERROR: Invalid Station ID \
 
 # Test.
 my $ret = $map->get_node_by_id('1-08');
-is($ret->name, 'Nestroyplatz', 'Get node for node id.');
+is($ret->name, 'Südtiroler Platz-Hauptbahnhof', 'Get node for node id.');
+
+my $ret2 = $map->get_node_by_id('1-13');
+is($ret2->name, 'Nestroyplatz', 'Get another node for node id.');
+
