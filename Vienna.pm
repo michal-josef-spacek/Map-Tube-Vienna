@@ -189,8 +189,8 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
 
 =begin html
 
-<a href="https://raw.githubusercontent.com/tupinek/Map-Tube-Vienna/master/images/ex3.png">
-  <img src="https://raw.githubusercontent.com/tupinek/Map-Tube-Vienna/master/images/ex3.png" alt="U-Bahn Wien" width="300px" height="300px" />
+<a href="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Vienna/master/images/ex3.png">
+  <img src="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Vienna/master/images/ex3.png" alt="U-Bahn Wien" width="300px" height="300px" />
 </a>
 
 =end html
@@ -301,7 +301,7 @@ Install the Map::Tube concrete metro modules.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Map-Tube-Vienna>
+L<https://github.com/michal-josef-spacek/Map-Tube-Vienna>
 
 =head1 AUTHOR
 
