@@ -118,6 +118,8 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
 
 =head1 EXAMPLE1
 
+=for comment filename=print_vienna_route.pl
+
  # Pragmas.
  use strict;
  use warnings;
@@ -140,6 +142,8 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
 
 =head1 EXAMPLE2
 
+=for comment filename=print_vienna_def_xml_file.pl
+
  # Pragmas.
  use strict;
  use warnings;
@@ -160,6 +164,8 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
  # XML file: .*/vienna-map.xml
 
 =head1 EXAMPLE3
+
+=for comment filename=print_vienna_image.pl
 
  # Pragmas.
  use strict;
@@ -198,6 +204,8 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
 
 =head1 EXAMPLE4
 
+=for comment filename=print_vienna_lines.pl
+
  # Pragmas.
  use strict;
  use warnings;
@@ -223,6 +231,8 @@ For more information about Vienna Map, click L<here|https://en.wikipedia.org/wik
  # U-Bahn-Linie U6
 
 =head1 EXAMPLE5
+
+=for comment filename=print_vienna_line_stations.pl
 
  # Pragmas.
  use strict;
