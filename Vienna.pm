@@ -36,6 +36,7 @@ Map::Tube::Vienna - Interface to the Vienna U-Bahn Map.
 =head1 SYNOPSIS
 
  use Map::Tube::Vienna;
+
  my $obj = Map::Tube::Vienna->new;
  my $routes_ar = $obj->get_all_routes($from, $to);
  my $line = $obj->get_line_by_id($line_id);

@@ -1,4 +1,5 @@
 0.09
+ - Improve SYNOPSIS section in doc.
  - Update Module::Install to 1.21 version.
  - Update author github username.
  - Update copyright years.
