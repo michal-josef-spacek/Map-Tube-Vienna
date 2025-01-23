@@ -24,5 +24,5 @@ like($EVAL_ERROR, qr{^Map::Tube::get_node_by_id\(\): ERROR: Invalid Station ID \
 	'Get node for bad node id..');
 
 # Test.
-my $ret = $map->get_node_by_id('1-08');
+my $ret = $map->get_node_by_id('1-13');
 is($ret->name, 'Nestroyplatz', 'Get node for node id.');

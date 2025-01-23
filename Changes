@@ -4,6 +4,7 @@
  - Improve SYNOPSIS section in doc.
  - Rename examples to better names.
  - Update Module::Install to 1.21 version.
+ - Update linie U1.
  - Update author github username.
  - Update copyright years.
 
