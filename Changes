@@ -1,4 +1,5 @@
 0.10
+ - Fix Makefile.PL and use lib.
 
 0.09 2025-01-23T11:00:36+01:00
  - Fix stations on multiple lines.
