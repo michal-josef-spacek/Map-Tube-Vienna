@@ -1,4 +1,5 @@
 0.09
+ - Fix stations on multiple lines.
  - Improve SYNOPSIS section in doc.
  - Update Module::Install to 1.21 version.
  - Update author github username.
