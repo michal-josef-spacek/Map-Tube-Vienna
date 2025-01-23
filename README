@@ -68,11 +68,9 @@ METHODS
              Returns string with XML.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(decode_utf8 encode_utf8);
      use Map::Tube::Vienna;
 
@@ -89,11 +87,9 @@ EXAMPLE1
      # Route: Taborstraße (U-Bahn-Linie U2), Praterstern (U-Bahn-Linie U1,U-Bahn-Linie U2), Vorgartenstraße (U-Bahn-Linie U1), Donauinsel (U-Bahn-Linie U1), Kaisermühlen (U-Bahn-Linie U1)
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Map::Tube::Vienna;
 
      # Object.
@@ -109,11 +105,9 @@ EXAMPLE2
      # XML file: .*/vienna-map.xml
 
 EXAMPLE3
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Map::Tube::GraphViz;
      use Map::Tube::GraphViz::Utils qw(node_color_without_label);
      use Map::Tube::Vienna;
@@ -137,11 +131,9 @@ EXAMPLE3
      # -rw-r--r-- 1 skim skim 294217 Jan 25 01:11 Vienna.png
 
 EXAMPLE4
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Map::Tube::Vienna;
 
@@ -162,11 +154,9 @@ EXAMPLE4
      # U-Bahn-Linie U6
 
 EXAMPLE5
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Map::Tube::Vienna;
 
